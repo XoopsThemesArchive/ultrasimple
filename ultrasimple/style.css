@@ -1,0 +1,142 @@
+/* 全般設定 */
+body {color: black; background: #FEFEFE; margin: 5px; padding: 5px;}
+
+table {width: 100%; margin: 5; padding: 5; font-size: 11px; border-collapse: collapse;}
+table td {padding: 0; border-width: 0; vertical-align: top; font-family: Tahoma, Arial, Helvetica, osaka;}
+
+/* 全般的なリンクの設定 */
+a {color: #664209; text-decoration: none; background-color: transparent;}
+a:hover {color: #ff6600; text-decoration: underline;}
+
+/* 一般タグの設定 */
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+
+/* リスト表示の設定 中央左右のブロックなどで使用 */
+ul { margin: 2px; padding: 2px; list-style: decimal inside; text-align: left;}
+li { margin-left: 2px; list-style: square inside; color: #7B869A}
+
+input.formButton {}
+
+/* 最新ニュースの枠 */
+.item {border: 1px solid #996633;}
+/* 最新ニュースのタイトルバー */
+.itemHead {padding: 5px; background-color: #996633; color: #FFFFE0;}
+/* 最新ニュースの投稿情報欄 */
+.itemInfo {text-align: right; padding: 3px; background: #FFFFEE;}
+/* 最新ニュースのタイトルの設定 */
+.itemTitle a {font-size: 130%; font-weight: bold; font-variant: small-caps; color: #ffffff; background-color: transparent;}
+/* 最新ニュースの投稿者 */
+.itemPoster {font-size: 90%;}
+/* 最新ニュースの投稿日 */
+.itemPostDate {font-size: 90%;}
+/* 最新ニュースのステータス */
+.itemStats {font-size: 90%;}
+/* 最新ニュースのコンテンツ部分 */
+.itemBody {padding-left: 10px;}
+.itemText {margin-top: 5px; margin-bottom: 5px; line-height: 130%;}
+/* 最新ニュースの1文字目 */
+.itemText:first-letter {font-size: 133%; font-weight: bold;}
+/* 最新ニュースのフッター */
+.itemFoot {text-align: right; padding: 5px; background-color: #FFFFEE;}
+.itemAdminLink {font-size: 90%;}
+.itemPermaLink {font-size: 90%;}
+
+th {background-color: #996633; color: #FFFFEE; padding : 2px; vertical-align : middle; font-family: Tahoma, Arial, Helvetica, sans-serif;}
+
+/*ヘッダーブロックの定義*/
+td#headerlogo {width: 100%; background: #FFFFEE; vertical-align: middle; text-align:center; border:1px solid #996633; border-bottom:0px;}
+
+/*左ブロックの定義*/
+td#leftcolumn {width: 170px; border: 1px solid #996633; background: #FFFFEE;}
+td#leftcolumn th {background-color: #996633; color: #FFFFEE; vertical-align: middle;}
+/*左ブロックタイトルの定義*/
+td#leftcolumn div.blockTitle {padding: 3px; background: #996633; color: #FFFFEE; font-weight: bold; text-align:center;}
+/*左ブロックコンテンツの定義*/
+td#leftcolumn div.blockContent {padding:3px; line-height:130%;}
+
+/* 左ブロック　メインメニューの定義*/
+td#mainmenu a {margin: 0; padding: 4px;}
+td#mainmenu a:hover {}
+td#mainmenu a.menuTop {padding-left: 8px;}
+td#mainmenu a.menuMain {padding-left: 8px;}
+td#mainmenu a.menuSub {padding-left: 16px;}
+
+/*左ブロック　ユーザーメニューの定義*/
+td#usermenu a {margin: 0; padding: 4px 4px 4px 8px;}
+td#usermenu a:hover {}
+td#usermenu a.menuTop {padding-left:8px;}
+td#usermenu a.highlight {background-color: #fcc;}
+
+
+/*中央ブロックの定義*/
+td#centercolumn {border:1px solid #996633; background: #FFFFFC;}
+td#centercolumn th {background-color: #996633; color: #FFFFEE; vertical-align: middle;}
+td#centercolumn th a{color: #FFFFEE;}
+td#centercolumn th a:hover{text-decoration: underline;}
+
+/*中央-中央ブロックの定義*/
+td#centerCcolumn {padding: 0px 3px 1px 3px;}
+td#centerCcolumn div.blockTitle {padding: 3px; color: #996633; font-weight: bold; margin: 0px; text-align:center;}
+td#centerCcolumn div.blockContent {border-bottom: 1px dashed #996633; padding: 3px; margin-bottom: 2px; line-height: 130%;}
+
+/*中央-左ブロックの定義*/
+td#centerLcolumn {width: 50%; padding: 0px 3px 0px 0px;}
+td#centerLcolumn div.blockTitle {padding: 3px; color: #996633; font-weight: bold; margin: 0px; text-align:center;}
+td#centerLcolumn div.blockContent {border-left: 1px dashed #996633; border-bottom: 1px dashed #996633; padding: 3px; margin-left: 3px; margin-right: 2px; margin-bottom: 2px; line-height: 130%;}
+
+/*中央-右ブロックの定義*/
+td#centerRcolumn {width: 50%; padding: 0px 3px 0px 0px;}
+td#centerRcolumn div.blockTitle {padding: 3px; color: #996633; font-weight: bold; margin-top: 0px; text-align:center;}
+td#centerRcolumn div.blockContent {border-left: 1px dashed #996633; border-bottom: 1px dashed #996633; padding: 3px; margin-left: 2px; margin-right: 3px; margin-bottom: 2px; line-height: 130%;}
+
+div#content {text-align: left; padding: 8px;}
+
+/*右ブロックの定義*/
+td#rightcolumn {width: 170px; border:1px solid #996633; background: #FFFFEE;}
+td#rightcolumn th {background: #996633; color: #FFFFEE; vertical-align: middle;}
+td#rightcolumn div.blockTitle {padding: 3px; background: #996633; color: #FFFFEE; font-weight: bold; text-align:center;}
+td#rightcolumn div.blockContent {padding: 3px; line-height: 130%;}
+
+/*フッタブロックの定義*/
+td#footerbar {padding:6px; vertical-align:middle; text-align:center; border:1px solid #996633; background: #996633; color:#FFFFEE;}
+
+/* フォーラムなどの外枠*/
+.outer {background: #996633;}
+/* フォーラムなどの投稿情報欄 */
+.head {background-color: #F5DAB2; padding: 5px; font-weight: bold;}
+
+/* フォーラムなどの交互に色が変わる部分 */
+.even {background-color: #FFFFFC; padding: 5px;}
+.odd {background-color: #FFFFEE; padding: 5px;}
+/* フォーラムなどのフッター */
+.foot {background-color: #FFFFE0; padding: 5px; font-weight: bold;}
+tr.even td {background-color: #FFFFFC; padding: 5px;}
+tr.odd td {background-color: #FFFFEE; padding: 5px;}
+
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+
+/* Xoopsコードを記述する部分 */
+div.xoopsCode { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+
+/* 引用部分の定義 */
+div.xoopsQuote { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #7B869A; font-weight:bold; border: 1px solid silver; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #7B869A; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
